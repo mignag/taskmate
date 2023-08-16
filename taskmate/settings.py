@@ -33,7 +33,7 @@ SECRET_KEY = env("DJANGO_SECRET_KEY")   #'django-insecure-sc_$_@5$myxuy6p(x-7*hc
 DEBUG = env("DJANGO_DEBUG")             #True
 
 ALLOWED_HOSTS = ["localhos", "127.0.0.1", "taskmatemg.up.railway.app"]
-CSRF_TRUSTED_ORIGINS = ['taskmatemg.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://taskmatemg.up.railway.app']
 
 # Application definition
 
